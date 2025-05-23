@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 //images
-import heroImg from "../assets/sectionhero.jpg";
+import heroImg from "../assets/sectionHero.jpg";
 
 const RefundPolicy = () => {
   const fadeIn = {

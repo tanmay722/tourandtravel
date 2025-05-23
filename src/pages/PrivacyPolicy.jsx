@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import heroImg from "../assets/sectionhero.jpg";
+import heroImg from "../assets/sectionHero.jpg";
 
 const PrivacyPolicy = () => {
   const fadeIn = {

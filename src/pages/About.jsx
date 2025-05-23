@@ -7,7 +7,7 @@ import {
 } from "react-icons/fa";
 
 //images
-import heroImg from "../assets/sectionhero.jpg";
+import heroImg from "../assets/sectionHero.jpg";
 import aboutImage from "../assets/about.jpg";
 
 const About = () => {

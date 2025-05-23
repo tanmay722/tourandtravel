@@ -4,7 +4,7 @@ import places from "../data/places";
 import PopularPlaceCard from "../components/PopularPlaceCard";
 
 //images
-import heroImg from "../assets/sectionhero.jpg";
+import heroImg from "../assets/sectionHero.jpg";
 
 const PopularPlaces = () => {
   const [filter, setFilter] = useState("all");

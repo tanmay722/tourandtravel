@@ -5,7 +5,7 @@ import { FaPhoneAlt, FaWhatsapp, FaStar } from "react-icons/fa";
 import accommodations from "../data/accommodation";
 
 //images
-import heroImg from "../assets/sectionhero.jpg";
+import heroImg from "../assets/sectionHero.jpg";
 
 const Accommodation = () => {
   const fadeIn = {

@@ -11,7 +11,7 @@ import {
 } from "react-icons/fa";
 
 //images
-import heroImg from "../assets/sectionhero.jpg";
+import heroImg from "../assets/sectionHero.jpg";
 
 const Contact = () => {
   const fadeIn = {
