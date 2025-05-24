@@ -76,7 +76,7 @@ const About = () => {
                 oldest living cities.
               </p>
               <p className="text-sm sm:text-base text-gray-600 mb-2 md:mb-4">
-                Our founder, Mr. Rakesh Sharma, a Varanasi native with deep
+                Our founder, Mr. Srijan Gupta, a Varanasi native with deep
                 knowledge of the city's history and traditions, established the
                 company to provide visitors with meaningful connections to the
                 heart and soul of Varanasi. With his expertise and passion, he
@@ -295,13 +295,13 @@ const About = () => {
               <div className="h-64 overflow-hidden">
                 <img
                   src="https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg"
-                  alt="Rakesh Sharma"
+                  alt="Srijan Gupta"
                   className="w-full h-full object-cover"
                 />
               </div>
               <div className="p-6 text-center">
                 <h3 className="text-xl font-bold text-gray-900">
-                  Rakesh Sharma
+                  Srijan Gupta
                 </h3>
                 <p className="text-primary-500 mb-3">Founder & CEO</p>
                 <p className="text-gray-600 text-sm lg:text-base">
