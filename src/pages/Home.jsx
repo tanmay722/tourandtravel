@@ -219,7 +219,7 @@ const Home = () => {
               variants={fadeInUp}
               className="card p-4 sm:p-6 text-center"
             >
-              <div className="w-12 sm:w-16 h-12 sm:h-16 bg-earth-500 rounded-full flex items-center justify-center mx-auto mb-6 text-white">
+              <div className="w-12 sm:w-16 h-12 sm:h-16 bg-blue-500 rounded-full flex items-center justify-center mx-auto mb-6 text-white">
                 <FaShip size={24} />
               </div>
               <h3 className="text-xl font-bold text-gray-900 mb-3">

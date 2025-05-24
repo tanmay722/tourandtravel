@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 import {
-  FaPhone,
+  FaPhoneAlt,
   FaWhatsapp,
   FaEnvelope,
   FaMapMarkerAlt,
@@ -187,7 +187,7 @@ const Footer = () => {
                 </span>
               </li>
               <li className="flex items-center">
-                <FaPhone className="text-primary-400 mr-3" />
+                <FaPhoneAlt className="text-primary-400 mr-3" />
                 <a
                   href="tel:+919415255168"
                   className="text-gray-300 hover:text-primary-400 transition-colors"

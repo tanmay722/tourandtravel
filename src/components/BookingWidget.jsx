@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { FaPhone, FaWhatsapp, FaTimes } from "react-icons/fa";
+import { FaPhoneAlt, FaWhatsapp, FaTimes } from "react-icons/fa";
 
 const BookingWidget = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -33,7 +33,7 @@ const BookingWidget = () => {
                 href="tel:+919415255168"
                 className="flex items-center justify-center w-full py-3 px-4 bg-secondary-500 text-white rounded-md hover:bg-secondary-600 transition-colors"
               >
-                <FaPhone className="mr-2" />
+                <FaPhoneAlt className="mr-2" />
                 Call Us Now
               </a>
 
@@ -57,7 +57,7 @@ const BookingWidget = () => {
         onClick={() => setIsOpen(!isOpen)}
         className="bg-primary-400 text-white rounded-full w-16 h-16 flex items-center justify-center shadow-lg hover:bg-primary-500 transition-colors"
       >
-        {isOpen ? <FaTimes size={24} /> : <FaPhone size={24} />}
+        {isOpen ? <FaTimes size={24} /> : <FaPhoneAlt size={24} />}
       </motion.button>
     </div>
   );

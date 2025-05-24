@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import {
   FaMapMarkerAlt,
-  FaPhone,
+  FaPhoneAlt,
   FaEnvelope,
   FaWhatsapp,
   FaClock,
@@ -78,7 +78,7 @@ const Contact = () => {
 
                 <div className="flex items-start">
                   <div className="bg-primary-100 p-3 rounded-full text-primary-500 mr-4">
-                    <FaPhone size={20} />
+                    <FaPhoneAlt size={20} />
                   </div>
                   <div>
                     <h3 className="text-md md:text-lg font-semibold text-gray-900 mb-1">
@@ -222,7 +222,7 @@ const Contact = () => {
                   href="tel:+919415255168"
                   className="inline-flex items-center justify-center w-full bg-primary-500 text-white py-2 md:py-4 px-2 sm:px-4 md:px-6 rounded-lg hover:bg-primary-600 transition-colors"
                 >
-                  <FaPhone className="mr-2" />
+                  <FaPhoneAlt className="mr-2" />
                   +91 9415255168
                 </a>
               </div>

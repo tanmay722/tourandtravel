@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { Link, NavLink, useLocation } from "react-router-dom";
 import { motion, AnimatePresence } from "framer-motion";
-import { FaPhone, FaWhatsapp, FaBars, FaTimes } from "react-icons/fa";
+import { FaPhoneAlt, FaWhatsapp, FaBars, FaTimes } from "react-icons/fa";
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -71,7 +71,7 @@ const Header = () => {
         </Link>
 
         {/* Desktop Navigation */}
-        <nav className="hidden lg:flex items-center space-x-8">
+        <nav className="hidden xl:flex items-center space-x-6">
           {navLinks.map((link) => (
             <NavLink
               key={link.path}
@@ -93,16 +93,16 @@ const Header = () => {
         </nav>
 
         {/* Quick Contact */}
-        <div className="hidden md:flex items-center space-x-4">
+        <div className="hidden lg:flex items-center space-x-4 mb-1">
           <a
             href="tel:+919415255168"
-            className={`flex items-center font-medium ${
+            className={`flex items-center lg:flex xl:hidden 2xl:flex font-medium ${
               scrolled || !isHomePage
                 ? "text-secondary-500 hover:text-secondary-600"
                 : "text-white hover:text-primary-300"
             }`}
           >
-            <FaPhone className="mr-2" />
+            <FaPhoneAlt className="mr-2" />
             <span>+91 9415255168</span>
           </a>
           <a
@@ -118,7 +118,7 @@ const Header = () => {
 
         {/* Mobile menu button */}
         <button
-          className="lg:hidden text-2xl focus:outline-none"
+          className="xl:hidden text-2xl focus:outline-none"
           onClick={() => setIsOpen(!isOpen)}
         >
           {isOpen ? (
@@ -168,7 +168,7 @@ const Header = () => {
                   href="tel:+919415255168"
                   className="flex items-center font-medium text-secondary-500"
                 >
-                  <FaPhone className="mr-2" />
+                  <FaPhoneAlt className="mr-2" />
                   <span>+91 9415255168</span>
                 </a>
                 <a
